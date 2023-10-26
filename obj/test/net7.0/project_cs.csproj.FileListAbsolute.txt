@@ -1,0 +1,15 @@
+/Users/adrien/Documents/project_cs/project_cs/bin/test/net7.0/project_cs
+/Users/adrien/Documents/project_cs/project_cs/bin/test/net7.0/project_cs.deps.json
+/Users/adrien/Documents/project_cs/project_cs/bin/test/net7.0/project_cs.runtimeconfig.json
+/Users/adrien/Documents/project_cs/project_cs/bin/test/net7.0/project_cs.dll
+/Users/adrien/Documents/project_cs/project_cs/bin/test/net7.0/project_cs.pdb
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.csproj.AssemblyReference.cache
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.AssemblyInfoInputs.cache
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.AssemblyInfo.cs
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.csproj.CoreCompileInputs.cache
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.dll
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/refint/project_cs.dll
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.pdb
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/project_cs.genruntimeconfig.cache
+/Users/adrien/Documents/project_cs/project_cs/obj/test/net7.0/ref/project_cs.dll
