@@ -20,6 +20,7 @@ internal class Program
             Console.WriteLine(" -t              Traduis une phrase");
             Console.WriteLine("     --langue    Choix de la langue (Defaut: Anglais)");
             Console.WriteLine(" create          Créée une application React et installe les dependances");
+            Console.WriteLine("     --project   Choix de la technologie (Defaut React)");
             return;
         }
 
@@ -40,8 +41,7 @@ internal class Program
                 tryAgain = project_cs.Translation.Translate(args[1..]);
                 break;
             case "create":
-                project_cs.Create.Creation(args[1..]);
-                tryAgain = true;
+                tryAgain = project_cs.Create.Creation(args[1..]);
                 break;
             default:
                 Console.WriteLine("Not recognized command");
