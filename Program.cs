@@ -16,9 +16,10 @@ internal class Program
             Console.WriteLine($"clitool v{versionString}");
             Console.WriteLine("-------------");
             Console.WriteLine("\nUsage:");
-            Console.WriteLine(" -c      Corrige les fautes d'orthographe");
-            Console.WriteLine(" -t      Traduis en anglais");
-            Console.WriteLine(" create  Créée une application React et installe les dependances");
+            Console.WriteLine(" -c              Corrige les fautes d'orthographe");
+            Console.WriteLine(" -t              Traduis une phrase");
+            Console.WriteLine("     --langue    Choix de la langue (Defaut: Anglais)");
+            Console.WriteLine(" create          Créée une application React et installe les dependances");
             return;
         }
 
@@ -36,8 +37,7 @@ internal class Program
                 tryAgain = true;
                 break;
             case "-t":
-                project_cs.Translation.Translate(args[1..]);
-                tryAgain = true;
+                tryAgain = project_cs.Translation.Translate(args[1..]);
                 break;
             case "create":
                 project_cs.Create.Creation(args[1..]);
