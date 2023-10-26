@@ -8,9 +8,9 @@ namespace project_cs
 	{
 		public static void Correct(string[] args)
 		{
+			string result = "";
 			if (args.Length > 0)
 			{
-				string result = "";
 				foreach (string word in args)
 				{
 					result += word + " ";
