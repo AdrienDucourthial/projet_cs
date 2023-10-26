@@ -16,11 +16,12 @@ internal class Program
             Console.WriteLine($"clitool v{versionString}");
             Console.WriteLine("-------------");
             Console.WriteLine("\nUsage:");
-            Console.WriteLine(" --c              Corrige les fautes d'orthographe");
-            Console.WriteLine(" --t              Traduis une phrase");
+            Console.WriteLine(" --c             Corrige les fautes d'orthographe");
+            Console.WriteLine(" --t             Traduis une phrase");
             Console.WriteLine("     --langue    Choix de la langue (Defaut: Anglais)");
             Console.WriteLine(" create          Créée une application React et installe les dependances");
             Console.WriteLine("     --project   Choix de la technologie (Defaut React)");
+            Console.WriteLine(" clone           Clone a git repository");         
             return;
         }
 
@@ -42,6 +43,10 @@ internal class Program
                 break;
             case "create":
                 tryAgain = project_cs.Create.Creation(args[1..]);
+                break;
+            case "clone":
+                project_cs.Clone.Cloning(args[1..]);
+                tryAgain = true;
                 break;
             default:
                 Console.WriteLine("Not recognized command");
